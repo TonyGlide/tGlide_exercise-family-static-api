@@ -26,7 +26,7 @@ def test_first_three(client):
 def test_add_implementation(client):
     response = client.post('/member', json={
 		"first_name": "Tommy",
-        "id": 3443,
+        "id": 1544,
 		"age": 23,
 		"lucky_numbers": [34,65,23,4,6]
 	})
